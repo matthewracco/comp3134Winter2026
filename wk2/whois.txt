@@ -1,0 +1,106 @@
+Domain:
+facebook.com
+Registered On:
+1997-03-29
+Expires On:
+2034-03-30
+Updated On:
+2025-04-23
+Status:
+client delete prohibited
+client transfer prohibited
+client update prohibited
+server delete prohibited
+server transfer prohibited
+server update prohibited
+Name Servers:
+a.ns.facebook.com
+b.ns.facebook.com
+c.ns.facebook.com
+d.ns.facebook.com
+
+Domain:
+github.com
+Registered On:
+2007-10-09
+Expires On:
+2026-10-09
+Updated On:
+2024-09-07
+Status:
+client delete prohibited
+client transfer prohibited
+client update prohibited
+Name Servers:
+dns1.p08.nsone.net
+dns2.p08.nsone.net
+dns3.p08.nsone.net
+dns4.p08.nsone.net
+ns-1283.awsdns-32.org
+ns-1707.awsdns-21.co.uk
+ns-421.awsdns-52.com
+ns-520.awsdns-01.net
+
+Domain:
+youtube.com
+Registered On:
+2005-02-15
+Expires On:
+2027-02-15
+Updated On:
+2026-01-14
+Status:
+client delete prohibited
+client transfer prohibited
+client update prohibited
+server delete prohibited
+server transfer prohibited
+server update prohibited
+Name Servers:
+ns1.google.com
+ns2.google.com
+ns3.google.com
+ns4.google.com
+
+Domain:
+cisco.com
+Registered On:
+1987-05-14
+Expires On:
+2026-05-15
+Updated On:
+2025-04-13
+Status:
+client delete prohibited
+client transfer prohibited
+client update prohibited
+server delete prohibited
+server transfer prohibited
+server update prohibited
+Name Servers:
+a28-64.akam.net
+a3-64.akam.net
+ns1.cisco.com
+ns2.cisco.com
+ns3.cisco.com
+
+Domain:
+apple.com
+Registered On:
+1987-02-19
+Expires On:
+2026-02-20
+Updated On:
+2025-01-21
+Status:
+client delete prohibited
+client transfer prohibited
+client update prohibited
+server delete prohibited
+server transfer prohibited
+server update prohibited
+Name Servers:
+a.ns.apple.com
+b.ns.apple.com
+c.ns.apple.com
+d.ns.apple.com

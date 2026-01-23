@@ -1,0 +1,24 @@
+root@lamponubuntu2404-s-1vcpu-1gb-tor1-01:~# ping openai.com
+PING openai.com (104.18.33.45) 56(84) bytes of data.
+64 bytes from 104.18.33.45: icmp_seq=1 ttl=58 time=3.46 ms
+64 bytes from 104.18.33.45: icmp_seq=2 ttl=58 time=2.34 ms
+64 bytes from 104.18.33.45: icmp_seq=3 ttl=58 time=2.35 ms
+64 bytes from 104.18.33.45: icmp_seq=4 ttl=58 time=2.34 ms
+64 bytes from 104.18.33.45: icmp_seq=5 ttl=58 time=2.43 ms
+64 bytes from 104.18.33.45: icmp_seq=6 ttl=58 time=2.35 ms
+64 bytes from 104.18.33.45: icmp_seq=7 ttl=58 time=2.32 ms
+64 bytes from 104.18.33.45: icmp_seq=8 ttl=58 time=2.32 ms
+64 bytes from 104.18.33.45: icmp_seq=9 ttl=58 time=2.30 ms
+64 bytes from 104.18.33.45: icmp_seq=10 ttl=58 time=2.36 ms
+64 bytes from 104.18.33.45: icmp_seq=11 ttl=58 time=2.41 ms
+64 bytes from 104.18.33.45: icmp_seq=12 ttl=58 time=2.37 ms
+64 bytes from 104.18.33.45: icmp_seq=13 ttl=58 time=2.33 ms
+64 bytes from 104.18.33.45: icmp_seq=14 ttl=58 time=2.36 ms
+64 bytes from 104.18.33.45: icmp_seq=15 ttl=58 time=2.36 ms
+64 bytes from 104.18.33.45: icmp_seq=16 ttl=58 time=2.39 ms
+64 bytes from 104.18.33.45: icmp_seq=17 ttl=58 time=2.30 ms
+64 bytes from 104.18.33.45: icmp_seq=18 ttl=58 time=2.39 ms
+^C
+--- openai.com ping statistics ---
+18 packets transmitted, 18 received, 0% packet loss, time 17025ms
+rtt min/avg/max/mdev = 2.295/2.414/3.455/0.254 ms

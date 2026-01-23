@@ -1,0 +1,53 @@
+root@lamponubuntu2404-s-1vcpu-1gb-tor1-01:~# nmap facebook.com
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-01-23 22:15 UTC
+Nmap scan report for facebook.com (31.13.80.36)
+Host is up (0.0026s latency).
+Other addresses for facebook.com (not scanned): 2a03:2880:f10e:83:face:b00c:0:25de
+rDNS record for 31.13.80.36: edge-star-mini-shv-01-yyz1.facebook.com
+Not shown: 998 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 4.09 seconds
+
+
+root@lamponubuntu2404-s-1vcpu-1gb-tor1-01:~# nmap -p 70 facebook.com
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-01-23 22:24 UTC
+Nmap scan report for facebook.com (31.13.80.36)
+Host is up (0.0030s latency).
+Other addresses for facebook.com (not scanned): 2a03:2880:f10e:83:face:b00c:0:25de
+rDNS record for 31.13.80.36: edge-star-mini-shv-01-yyz1.facebook.com
+
+PORT   STATE    SERVICE
+70/tcp filtered gopher
+
+Nmap done: 1 IP address (1 host up) scanned in 0.28 seconds
+
+
+root@lamponubuntu2404-s-1vcpu-1gb-tor1-01:~# nmap -p 20-999 facebook.com
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-01-23 22:27 UTC
+Nmap scan report for facebook.com (31.13.80.36)
+Host is up (0.0026s latency).
+Other addresses for facebook.com (not scanned): 2a03:2880:f10e:83:face:b00c:0:25de
+rDNS record for 31.13.80.36: edge-star-mini-shv-01-yyz1.facebook.com
+Not shown: 978 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 4.80 seconds
+
+
+root@lamponubuntu2404-s-1vcpu-1gb-tor1-01:~# nmap -F facebook.com
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-01-23 22:27 UTC
+Nmap scan report for facebook.com (31.13.80.36)
+Host is up (0.0030s latency).
+Other addresses for facebook.com (not scanned): 2a03:2880:f10e:83:face:b00c:0:25de
+rDNS record for 31.13.80.36: edge-star-mini-shv-01-yyz1.facebook.com
+Not shown: 98 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 1.80 seconds

@@ -1,0 +1,12 @@
+C:\Users\racco>ping 143.110.216.5
+
+Pinging 143.110.216.5 with 32 bytes of data:
+Reply from 143.110.216.5: bytes=32 time=30ms TTL=56
+Reply from 143.110.216.5: bytes=32 time=6ms TTL=56
+Reply from 143.110.216.5: bytes=32 time=5ms TTL=56
+Reply from 143.110.216.5: bytes=32 time=6ms TTL=56
+
+Ping statistics for 143.110.216.5:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 5ms, Maximum = 30ms, Average = 11ms
