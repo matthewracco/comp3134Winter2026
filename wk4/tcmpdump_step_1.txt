@@ -1,0 +1,15 @@
+# tcpdump -i eth0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+22:47:58.967541 IP lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh > pool-99-238-174-44.cpe.net.cable.rogers.com.51339: Flags [P.], seq 330573535:330573643, ack 3126079629, win 521, length 108
+22:47:58.967660 IP lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh > pool-99-238-174-44.cpe.net.cable.rogers.com.51339: Flags [P.], seq 108:224, ack 1, win 521, length 116
+22:47:58.973076 IP pool-99-238-174-44.cpe.net.cable.rogers.com.51339 > lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1:37, ack 4294967244, win 255, length 36
+22:47:58.973246 IP lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh > pool-99-238-174-44.cpe.net.cable.rogers.com.51339: Flags [P.], seq 224:260, ack 37, win 521, length 36
+22:47:58.990296 IP pool-99-238-174-44.cpe.net.cable.rogers.com.51339 > lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 37:73, ack 224, win 254, length 36
+22:47:58.990296 IP pool-99-238-174-44.cpe.net.cable.rogers.com.51339 > lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 224, win 254, length 0
+22:47:58.990519 IP lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh > pool-99-238-174-44.cpe.net.cable.rogers.com.51339: Flags [P.], seq 260:296, ack 73, win 521, length 36
+22:47:59.013934 IP pool-99-238-174-44.cpe.net.cable.rogers.com.51339 > lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 73:109, ack 260, win 254, length 36
+22:47:59.014084 IP lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh > pool-99-238-174-44.cpe.net.cable.rogers.com.51339: Flags [P.], seq 296:332, ack 109, win 521, length 36
+22:47:59.035561 IP pool-99-238-174-44.cpe.net.cable.rogers.com.51339 > lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 109:145, ack 332, win 254, length 36
+22:47:59.035561 IP pool-99-238-174-44.cpe.net.cable.rogers.com.51339 > lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 332, win 254, length 0
+22:47:59.035782 IP lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh > pool-99-238-174-44.cpe.net.cable.rogers.com.51339: Flags [P.], seq 332:368, ack 145, win 521, length 36

@@ -1,0 +1,11 @@
+# tcpdump -c 5 -i eth0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+22:51:26.572841 IP lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh > pool-99-238-174-44.cpe.net.cable.rogers.com.51339: Flags [P.], seq 331387271:331387459, ack 3126106557, win 521, length 188
+22:51:26.579469 IP pool-99-238-174-44.cpe.net.cable.rogers.com.51339 > lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 4294967244, win 253, length 0
+22:51:26.585889 IP pool-99-238-174-44.cpe.net.cable.rogers.com.51339 > lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1:37, ack 0, win 253, length 36
+22:51:26.586040 IP lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh > pool-99-238-174-44.cpe.net.cable.rogers.com.51339: Flags [P.], seq 188:224, ack 37, win 521, length 36
+22:51:26.659275 IP pool-99-238-174-44.cpe.net.cable.rogers.com.51339 > lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 37:73, ack 224, win 252, length 36
+5 packets captured
+19 packets received by filter
+0 packets dropped by kernel
