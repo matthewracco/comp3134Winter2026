@@ -1,0 +1,3 @@
+I am seeing two warnings that say Failed to open directory due to no such file or directory found. The issue is that the app doesn't validate user input, it directly passes it to the scandir() function.
+
+The sensitive information includes the structure of the server's file system, names of files and directories, and internal error messages that can reveal server details.

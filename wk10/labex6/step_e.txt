@@ -1,0 +1,5 @@
+To fix the directory traversal issue, the script now uses basename() to stop users from accessing folders outside the web root.
+
+It also checks with file_exists() and is_dir() to make sure the folder exists before showing it.
+
+Finally, it blocks input with periods to prevent users from entering filenames.

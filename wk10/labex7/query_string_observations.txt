@@ -1,0 +1,4 @@
+Observation 1: Site accepted the word and displayed definition
+Observation 2: Word not found message, nothing exposed
+Observation 3: Site does not execute the script, input is sanitized.
+Observation 4: Script is not executed, special characters are safely handled.

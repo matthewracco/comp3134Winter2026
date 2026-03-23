@@ -1,0 +1,5 @@
+Using this URL, the app is displaying files from a parent directory. The issue is that it shows the vulnerability with directory traversal even when encoded input is used without validation.
+
+This URL is the same as using ../ which moves up directories.
+
+This page exposes directory structure outside intended folder, file and folder names that shouldn't be visible, potential access to sensitive system files.

