@@ -1,0 +1,20 @@
+Before
+Input: Ben
+Page returned the results where the first name is "Ben", and active column equals 1.
+
+Input: Ben'-- 
+Query behavior changed due to SQL injection. Single quote closes the string in the SQL query early and the double dash comments out the rest.
+
+Input: Ben' or 1=1
+Input manipulates SQL query logic, single quote closes the string, OR 1=1 is always true, causes the WHERE clause to always evaluate as true.
+
+
+After
+Input: Ben
+Same result, page returns correct result where first name is Ben and active column equals 1.
+
+Input: Ben'--
+Input is treated strictly as a string value and not exec SQL code. This time, the prepared statements are able to separate SQL logic from user input.
+
+Input: Ben' or 1=1
+The input is treated as a single string value. The entire input is set as data rather than SQL code.
