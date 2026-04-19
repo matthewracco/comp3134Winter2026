@@ -1,0 +1,3 @@
+When using the secure form, the login successfully worked because there was a valid token stored in the session.
+When using the attack page, the request failed because the attacker has no access to the session token.
+This makes sure that the only requests that are accepted are from the application with the correct session token.
